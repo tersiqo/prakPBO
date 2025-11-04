@@ -5,4 +5,22 @@ public String kasta;
         super(berat, makanan, habitat);
         this.kasta = kasta;
     }
+
+    @Override
+    public void bergerak() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'bergerak'");
+    }
+
+    @Override
+    public void bernapas() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'bernapas'");
+    }
+
+     @Override
+    public void cetakInfo() {
+        super.cetakInfo();
+        System.out.println("Kasta   : " + this.kasta);
+    }
 }
