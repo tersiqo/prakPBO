@@ -9,5 +9,6 @@ public class AbstractClassDemo {
         lebah1.cetakInfo();
         lebah1.bergerak();
         lebah1.bernapas();
+    
     }
 }

@@ -12,7 +12,6 @@ public class Hewan {
     public void bergerak() {
 
     }
-    
     public void bernapas() {
 
     }
@@ -20,5 +19,6 @@ public class Hewan {
     public void cetakInfo() {
         System.out.println("berat   : " + this.berat);
         System.out.println("Makanan : " + this.makanan);
+        System.out.println("Habitat: " + this.habitat);
     }
 }
